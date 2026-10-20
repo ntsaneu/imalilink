@@ -1,0 +1,37 @@
+export const TRANSACTION_STATUS = {
+  PENDING: 'pending',
+  ROUTING: 'routing',
+  COMPLETED: 'completed',
+  FAILED: 'failed',
+  SETTLED: 'settled',
+} as const;
+
+export const PROVIDER_STATUS = {
+  ACTIVE: 'active',
+  INACTIVE: 'inactive',
+  SUSPENDED: 'suspended',
+} as const;
+
+export const HTTP_STATUS = {
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  CONFLICT: 409,
+  UNPROCESSABLE: 422,
+  TOO_MANY_REQUESTS: 429,
+  INTERNAL_ERROR: 500,
+  SERVICE_UNAVAILABLE: 503,
+} as const;
+
+export const ERROR_CODES = {
+  VALIDATION_ERROR: 'VALIDATION_ERROR',
+  NOT_FOUND: 'NOT_FOUND',
+  DUPLICATE: 'DUPLICATE',
+  UNAUTHORIZED: 'UNAUTHORIZED',
+  PROVIDER_ERROR: 'PROVIDER_ERROR',
+  TIMEOUT: 'TIMEOUT',
+  INTERNAL_ERROR: 'INTERNAL_ERROR',
+} as const;
