@@ -8,7 +8,7 @@ eMali_link is a neutral, phone-number-based proxy registry and message router th
 [![Status](https://img.shields.io/badge/status-prototype-yellow)]()
 [![Tests](https://img.shields.io/badge/tests-15%20passing-brightgreen)]()
 [![Node](https://img.shields.io/badge/node-%3E%3D18-green)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
+![License](https://img.shields.io/badge/license-Proprietary-red)
 
 ---
 
@@ -247,3 +247,5 @@ npm run seed
 npm run dev
 
 eMali_link API Server running on http://localhost:3000
+
+[def]: https://img.sheilds.io/badge/license-Proprietary-red
